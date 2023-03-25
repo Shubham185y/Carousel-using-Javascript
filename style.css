@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    font-family: 'Poppins', sans-serif;
+}
+.left-button{
+    transform: rotate(180deg);
+    padding-left: 40px;
+}
+.right-button{
+    padding-left: 40px;
+}
+.car-button{
+    height: 100px;
+    width: 80px; 
+    color: #fff;
+    cursor: pointer;
+}
+.parent{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover; 
+}
+.image{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.child-image{
+    display: flex;
+    transition: all 1s ease;
+}
+.bottom-buttons{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+.button{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
